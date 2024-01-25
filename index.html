@@ -16,19 +16,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- icon link -->
     <script src="https://kit.fontawesome.com/569af0e486.js" crossorigin="anonymous"></script>
-    <!-- custom color -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                        colors: '',
-                    }
-                }
-            }
-        }
-    </script>
+
     <!-- style -->
     <style>
         .manrope {
@@ -238,8 +226,57 @@
            
         </section>
     </main>
-    <footer>
-
+        <footer class="bg-gradient-to-r from-[#FF00001A] to-[#FF89381A]  rounded-xl w-full h-full p-10 lg:p-28">
+        <div>
+            <div class="flex  justify-between px-10 lg:px-28 mb-24">
+                <img src="./images/cup.png" alt="">
+                <div class="flex gap-8 text-xl font-bold">
+                    <p>Ready to get strated?</p>
+                <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white  ">Get Started</button>
+                </div>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row  justify-around ">
+                <nav class="flex flex-col">
+                  <h6 class=" text-xl font-semibold">Quick Links</h6> 
+                  <a class="link link-hover mt-4">Home</a>
+                  <a class="link link-hover">About us</a>
+                  <a class="link link-hover">Insurance</a>
+                  <a class="link link-hover">Privacy policy</a>
+                </nav> 
+                <nav class="flex flex-col ">
+                  <h6 class=" text-xl font-semibold">Our Service</h6> 
+                  <a class="link link-hover mt-4">Life Insurance</a>
+                  <a class="link link-hover">Car Insurance</a>
+                  <a class="link link-hover">Health Insurance</a>
+                  <a class="link link-hover">House Insurance</a>
+                </nav> 
+                <nav class="flex flex-col" >
+                  <h6 class=" text-xl font-semibold">Help</h6> 
+                  <a class="link link-hover mt-4">Terms of use</a>
+                  <a class="link link-hover">Contact Us</a>
+                </nav> 
+                <form>
+                  <h6 class=" text-2xl font-semibold">Subscribe to our <br> newsletter</h6> 
+                  <fieldset class="form-control w-80">
+                    <div class="join">
+                      <input type="text" placeholder="Email address" class="input bg-transparent   join-item" /> 
+                      <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] rounded-full text-white text-3xl ">></button>
+                      
+                    </div>
+                    <hr>
+                  </fieldset>
+                  <div >
+                    <ul class="flex  gap-4 mt-4">
+                        <li><img src="./images/facebook.png" alt=""></li>
+                        <li><img src="./images/insta.png" alt=""></li>
+                        <li><img src="./images/twitter.png" alt=""></li>
+                    </ul>
+                  </div>
+                </form>
+            </div>
+            <p class="flex justify-center mt-20">© 2027 UIDesign.to - All rights reserved.</p>
+        </div>
     </footer>
 </body>
 
